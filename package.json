@@ -4,7 +4,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/AmanWebHub/My-portfolio-v2-.git",
+  "homepage": "https://github.com/AmanWebHub/My-portfolio.git",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
