@@ -1,6 +1,3 @@
-import React from 'react'
-// import Profile from 'images/Profile.png'
-
 import skills from '../data/skills'
 
 
@@ -70,10 +67,7 @@ const About = () => {
                                     <h5 class="fw-semibold mb-3">Technical Skills</h5>
                                     <div class="d-flex flex-wrap gap-2">
 
-                                        {skills.map((skill) => (
-                                            <span key={skill.id} class="skill-badge">{skill.name}</span>
-
-                                        ))}
+                                        {skills.map(skill =>  <span key={skill.id} class="skill-badge">{skill.name}</span> )}
 
                                     </div>
                                 </div>

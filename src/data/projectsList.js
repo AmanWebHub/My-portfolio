@@ -1,30 +1,36 @@
 const projectsList = [
   {     
     id: 1,
-    name: "Project 1",
+    name: "A-Tech  ",
     description: "A full-stack e-commerce platform with user authentication, product management, and payment integration.",
-    image: "./images/project1.png",
+    image: "./images/project-1.png",
     url: "https://amanwebhub.github.io/A-Tech/",     
 
   },
   {
     id: "2",
-    name: "Project 2",
+    name: " Web Wizard",
     description: "A responsive  website showcasing my projects and skills.",
-    image: "./images/project2.png",
+    image: "./images/project-2.png",
     url: "https://amanwebhub.github.io/Code-Fury/",
 
   },
   {
     id: "3",
-    name: "Project 3",
+    name: "LoveConnect",
     description: "LoveConnect A website for  Dating app promotion",
-    image: "./images/project3.png",
+    image: "./images/project-3.png",
     url: "https://amanwebhub.github.io/LoveConnect/",
 
   },
+  {
 
-
+    id: "4",
+    name: "Spotlight Ads",
+    description: " Spotlight adds a website design for advertisement company",
+    image: "./images/project-4.png",
+    url: "https://spotlightads.github.io/Portfolio/",  
+  },
   
 
 ]
