@@ -9,14 +9,14 @@ import Contact from "./Contact";
 function App() {
 
   return (
-    <div>
+    <>
       <Navbar />
       <Home />
       <About />
       <Poroects />
       <Contact />
       <Footer />
-    </div>
+    </>
   );
 }
 
