@@ -4,10 +4,10 @@ import projectsList from "../data/projectsList";
 const Poroects = () => {
   return (
     <>
-      <section id="projects" class="py-5 bg-light">
-        <div class="container">
-          <h2 class="section-title">Featured Projects</h2>
-          <div class="row g-4">
+      <section id="projects" className="py-5 bg-light">
+        <div className="container">
+          <h2 className="section-title">Featured Projects</h2>
+          <div className="row g-4">
             {projectsList.map((project) => {
               return (
                 <PoroectCard

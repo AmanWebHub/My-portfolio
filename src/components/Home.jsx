@@ -1,23 +1,37 @@
-import React from 'react'
+import React from "react";
+import socialLinks from "../data/socialLinks";
 
 const Home = () => {
     return (
-        <section id="home" class="d-flex align-items-center">
-            <div class="home-overlay"></div>
-            <div class="container text-center position-relative">
-                <h1 class="display-3 fw-bold mb-4">Full Stack Developer</h1>
-                <p class="lead mb-5">Building digital experiences that make an impact</p>
-                <div class="social-links">
-                    <a href="https://github.com/AmanWebHub?tab=repositories" class="btn  btn-lg mx-2"><i class="fab fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/aman-raheem-8b813034b/" class="btn  btn-lg mx-2"><i class="fab fa-linkedin"></i></a>
-                    <a href="#" class="btn  btn-lg mx-2"><i class="fab fa-twitter"></i></a>
+        <section id="home" className="d-flex align-items-center">
+            <div className="home-overlay"></div>
+            <div className="container text-center position-relative">
+                <h1 className="display-3 fw-bold mb-4">Full Stack Developer</h1>
+                <p className="lead mb-5">
+                    Building digital experiences that make an impact
+                </p>
+
+                <div className="social-links">
+                    {socialLinks.map((link) => (
+                        <a
+                            key={link.id}
+                            href={link.href}
+                            className="btn btn-lg mx-2"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label={link.label}
+                        >
+                            <i className={link.icon}></i>
+                        </a>
+                    ))}
                 </div>
-                <a href="#about" class="scroll-down-btn">
-                    <i class="fas fa-chevron-down"></i>
+
+                <a href="#about" className="scroll-down-btn">
+                    <i className="fas fa-chevron-down"></i>
                 </a>
             </div>
         </section>
-    )
-}
+    );
+};
 
-export default Home
+export default Home;
