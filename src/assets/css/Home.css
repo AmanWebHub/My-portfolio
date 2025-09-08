@@ -1,0 +1,44 @@
+/* src/assets/css/Home.css */
+#home {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: var(--gradient);
+  position: relative;
+  overflow: hidden;
+  color: white;
+}
+
+.home-overlay {
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    45deg,
+    var(--primary),
+    var(--secondary),
+    rgba(255, 255, 255, 0.1)
+  );
+  animation: rotate 20s linear infinite;
+  opacity: 0.1;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.social-links a {
+  color: white;
+  font-size: 1.5rem;
+  margin: 0 0.75rem;
+  transition: transform 0.3s ease;
+}
+
+.social-links a:hover {
+  transform: translateY(-3px);
+}

@@ -1,6 +1,7 @@
 import React from "react";
 import socialLinks from "../data/socialLinks";
 import useSmoothScroll from "../hooks/useSmoothScroll";
+import "../assets/css/Home.css";
 
 const Home = () => {
   useSmoothScroll();

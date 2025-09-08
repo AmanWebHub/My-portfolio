@@ -1,5 +1,6 @@
 import React from "react";
 import useNavbarEffect from "../hooks/useNavbarEffect";
+import '../assets/css/Navbar.css';
 
 const Navbar = () => {
   const navbarRef = useNavbarEffect();

@@ -1,6 +1,7 @@
 import React from "react";
 import PoroectCard from "./PoroectCard";
 import projectsList from "../data/projectsList";
+import "../assets/css/Projects.css";
 const Poroects = () => {
   return (
     <>
