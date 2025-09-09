@@ -6,7 +6,15 @@ export default function useNavbarEffect() {
   useEffect(() => {
     const handleScroll = () => {
       const nav = navbarRef.current;
-      if (nav) nav.style.background = window.scrollY > 50 ? 'rgba(255,255,255,0.95)' : 'rgba(255,255,255,0.8)';
+      if (nav) {
+        if (window.scrollY > 50) {
+          nav.style.background = 'rgba(255,255,255,0.97)';
+          nav.classList.add('navbar-scrolled');
+        } else {
+          nav.style.background = 'rgba(255,255,255,0.8)';
+          nav.classList.remove('navbar-scrolled');
+        }
+      }
 
       const sections = document.querySelectorAll('section');
       const navLinks = document.querySelectorAll('.nav-link');
@@ -23,6 +31,9 @@ export default function useNavbarEffect() {
     };
 
     window.addEventListener("scroll", handleScroll);
+    // Trigger once on load to set initial state
+    handleScroll();
+    
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
