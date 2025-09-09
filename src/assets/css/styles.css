@@ -12,6 +12,11 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px; /* Adjust based on your navbar height */
+}
+
 body {
   font-family: "Poppins", sans-serif;
   color: var(--dark);
