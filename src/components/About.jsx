@@ -2,6 +2,7 @@ import React from "react";
 import skills from "../data/skills";
 import useScrollReveal from "../hooks/useScrollReveal";
 import "../assets/css/About.css";
+
 const About = () => {
   useScrollReveal(
     [".about-description", ".skills", ".strengths", ".languages"],
@@ -29,24 +30,24 @@ const About = () => {
               </p>
 
               {/* Technical Skills */}
-              <h5 className="fw-semibold mb-3">Technical Skills</h5>
-              <div className="d-flex flex-wrap gap-2 skills">
+              <h5 className="section-header">Technical Skills</h5>
+              <div className="skills">
                 {skills.map(skill => (
                   <span key={skill.id} className="skill-badge">{skill.name}</span>
                 ))}
               </div>
 
               {/* Strengths */}
-              <h5 className="fw-semibold mb-3 mt-4">Strengths</h5>
+              <h5 className="section-header">Strengths</h5>
               <ul className="strengths">
-                <li><i className="fas fa-lightbulb text-primary"></i> Problem Solving</li>
-                <li><i className="fas fa-users text-primary"></i> Team Collaboration</li>
-                <li><i className="fas fa-project-diagram text-primary"></i> Project Management</li>
-                <li><i className="fas fa-rocket text-primary"></i> Adaptability & Learning</li>
+                <li><i className="fas fa-lightbulb"></i> Problem Solving</li>
+                <li><i className="fas fa-users"></i> Team Collaboration</li>
+                <li><i className="fas fa-project-diagram"></i> Project Management</li>
+                <li><i className="fas fa-rocket"></i> Adaptability & Learning</li>
               </ul>
 
               {/* Languages */}
-              <h5 className="fw-semibold mb-3 mt-4">Languages</h5>
+              <h5 className="section-header">Languages</h5>
               <ul className="languages">
                 <li>English</li>
                 <li>Tamil</li>
