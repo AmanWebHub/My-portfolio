@@ -31,6 +31,14 @@ const projectsList = [
     image: "./images/project-4.png",
     url: "https://spotlightads.github.io/Portfolio/",  
   },
+
+
+  {    id: "5",
+    name: "Maze Game",
+    description: "A fun and interactive maze game built with HTML, CSS, and JavaScript.",
+    image: "./images/project-5.png",
+    url: "https://maze-game-ochre.vercel.app/",  
+  },
   
 
 ]
