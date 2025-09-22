@@ -32,24 +32,20 @@ const projectsList = [
     url: "https://spotlightads.github.io/Portfolio/",  
   },
 
-<<<<<<< HEAD
-  {
-    id: "5",
-    name: " Minesweeper Web Clone", 
-    description: "A classic Minesweeper game built with HTML, CSS, and JavaScript.",
-    image: "./images/project-5.png",
-    url: "https://amanwebhub.github.io/Minesweeper-Web-Clone/",   
-  },
-=======
-
-  {    id: "5",
-    name: "Maze Game",
-    description: "A fun and interactive maze game built with HTML, CSS, and JavaScript.",
-    image: "./images/project-5.png",
-    url: "https://maze-game-ochre.vercel.app/",  
-  },
-  
->>>>>>> dev
+{
+  id: "5",
+  name: "Minesweeper Web Clone",
+  description: "A classic Minesweeper game built with HTML, CSS, and JavaScript.",
+  image: "./images/project-5.png",
+  url: "https://amanwebhub.github.io/Minesweeper-Web-Clone/",
+},
+{
+  id: "6",
+  name: "Maze Game",
+  description: "A fun and interactive maze game built with HTML, CSS, and JavaScript.",
+  image: "./images/project-6.png",
+  url: "https://maze-game-ochre.vercel.app/",
+},
 
 ]
 
