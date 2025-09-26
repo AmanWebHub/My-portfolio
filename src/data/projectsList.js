@@ -52,7 +52,7 @@ const projectsList = [
   name: "Chat Room",
   description: "A real-time chat application using Socket.io and Node.js.",
   image: "./images/project-7.png",
-  url: "https://chatapp-production-c4a8.up.railway.app/",
+  url: "https://chat-room-prototype-production.up.railway.app/",
 }
 
 ]
