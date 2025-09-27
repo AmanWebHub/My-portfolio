@@ -4,7 +4,7 @@ const skills = [
     id:"1"
  },
   {
-    name: "CSS3",
+    name: "CSS",
     id:"2",
   },
   {
